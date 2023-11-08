@@ -8,6 +8,18 @@
     <title>NEEDGOL - link-me</title>
     <meta name="description" content="great site to disseminate and explore the basics of the web on a large scale ">
     <link rel="stylesheet" href="style.css">
+<style type="text/css">
+ .page{
+  position: relative; width:100%; height:100%; overflow:hidden;
+ }
+ .page iframe {
+ position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+ </style>
 </head>
 <body>
 <header>
@@ -61,7 +73,9 @@
 				<a id="logo" href="https://">Status bar show banners</a>
 				<aside>
 					<div>
-						<iframe src="https://needgol.github.io/mastersurf.html" style="border:1px #0000ff none;" name="mastersurf" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="250px" width="250px" allowfullscreen></iframe>
+						<div class="page">
+        <iframe src="https://needgol.github.io/access" frameborder="0" allowfullscreen></iframe>
+ </div>
 					</br>
 					</div>
 					<div>
