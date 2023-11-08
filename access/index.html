@@ -5,29 +5,79 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<link rel="canonical" href="https://html5-templates.com/" />
+	<link rel="canonical" href="https://glbohrer.github.io/folder" />
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="script.js"></script>	
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<title>Windows Template</title>
+<style type="text/css">
+ .page{
+  position: relative; width:100%; height:100%; overflow:hidden;
+ }
+ .page iframe {
+ position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+ </style>
+<script>
+window.onbeforeunload = function() {
+return "Forbidden to minors";
+}
+</script>
 </head>
 <body>
+<script language="JavaScript">
+  function popupWin() {
+  text +=  "<html>\n<head>\n<title>PopUp Automática</title>\n<body>\n";
+  text += "<center>
+\n<br>";
+  text += "<img src='http://'>";
+  text += "</center>
+\n</body>\n</html>\n";
+  setTimeout('windowProp(text)', 3000);  // tempo para esperar para abrir
+  }
+  function windowProp(text) {
+  newWindow = window.open('https://needgol.github.io/page','newWin','width=800,height=500');
+  newWindow.document.write(text);
+  setTimeout('closeWin(newWindow)', 60000); // tempo para ficar aberto antes de fechar
+  }
+  function closeWin(newWindow) {
+  newWindow.close();
+  }
+  
+  window.onload = popupWin();
+  
+  </script>
 	<div id="desktop">
 		<div class="window" data-title="First">
-			Window content
+<div class="page">
+     <iframe src="https://bit.ly/40ucrIg" frameborder="0" allowfullscreen></iframe>
+</div>		
 		</div>
 		<div class="window" data-title="Second">
-			Second Window
+<div class="page">
+     <iframe src="https://needgol.github.io/page/" frameborder="0" allowfullscreen></iframe>
+</div>
 		</div>
 		<div class="window closed" data-title="Third">
-			Third window starts closed
+<div class="page">
+     <iframe src="https://trafficadbar.com/needgol" frameborder="0" allowfullscreen></iframe>
+</div>
 		</div>
 		<div class="window" data-title="Welcome">
 			<h1>Free Windows Template</h1>
-			<p>Minimize the windows to the taskbar, make them full screen or close them.</p>
 			<p>Drag the title bar to move the windows or resize them from the bottom right corner.</p>
 			<hr />
+			<center>
+			<table width="160px" heght="160px">
+				<tr><td>
+				</td></tr>
+			</table>
+			</center>
 			<p><strong>You can download and edit this template freely as long as you leave a visible link to HTML5-Templates.com</strong></p>
 		</div>
 		
@@ -44,5 +94,4 @@
 		<!-- You can use this template freely if you leave a visible link to HTML5-Templates.com -->
 	</div>
 </body>
-
 </html>
