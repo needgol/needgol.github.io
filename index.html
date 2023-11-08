@@ -23,35 +23,8 @@
     height: 100%;
  }
  </style>
-<script>
-window.onbeforeunload = function() {
-return "Forbidden to minors";
-}
-</script>
 </head>
 <body>
-<script language="JavaScript">
-  function popupWin() {
-  text +=  "<html>\n<head>\n<title>PopUp Automática</title>\n<body>\n";
-  text += "<center>
-\n<br>";
-  text += "<img src='http://'>";
-  text += "</center>
-\n</body>\n</html>\n";
-  setTimeout('windowProp(text)', 3000);  // tempo para esperar para abrir
-  }
-  function windowProp(text) {
-  newWindow = window.open('https://needgol.github.io/page','newWin','width=800,height=500');
-  newWindow.document.write(text);
-  setTimeout('closeWin(newWindow)', 60000); // tempo para ficar aberto antes de fechar
-  }
-  function closeWin(newWindow) {
-  newWindow.close();
-  }
-  
-  window.onload = popupWin();
-  
-  </script>
 	<div id="desktop">
 		<div class="window" data-title="First">
 <div class="page">
