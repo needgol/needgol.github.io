@@ -24,6 +24,33 @@ return "Gol";
     <meta name="description" content="Site, pedir ajuda com pix, divulgar, participar, rádio, tv-online, sport, msn, top,">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+  <style type="text/css">
+    body {background-color: transparent; font-family: Tahoma,Arial;}
+    #posiciona {
+        position: absolute; /* posição absoluta ao elemento pai, neste caso o BODY */
+        /* Posiciona no meio, tanto em relação a esquerda como ao topo */
+        left: 50%; 
+        top: 50%;
+        width: 300px; /* Largura da DIV */
+        height: 380px; /* Altura da DIV */
+        /* A margem a esquerda deve ser menos a metade da largura */
+        /* A margem ao topo deve ser menos a metade da altura */
+        /* Fazendo isso, centralizará a DIV */
+        margin-left: -150px;
+        margin-top: -125px;
+        background-color: #FFF;
+        color: #FFF;
+        background-color: #666;
+        text-align: center; /* Centraliza o texto */
+        z-index: 1000; /* Faz com que fique sobre todos os elementos da página */
+    }
+    #fechar { margin: 5px; font-size: 12px; color: #FFF; }
+  </style>
+  <script>
+    function fechar() { 
+        document.getElementById("posiciona").style.display = 'none'; 
+    }
+ </script>
 </head>
 <body>
 <script language="JavaScript">
@@ -48,6 +75,10 @@ return "Gol";
   window.onload = popupWin();
   
   </script>
+<div id="posiciona"> 
+<div id="fechar" align=right><a href="javascript:fechar();">FECHAR</a></div> 
+<iframe src="https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=Jjy5x13c0fPO8a7Fp2WIJJM3AHdeJamR&id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAGhUVnpURU9WVkVPU0hCSktPRDhIMVBaOEtFSDlVTy4u" style="border:1px ##000000 solid;" name="MeuIFrameFloat" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="350px" width="280px" allowfullscreen></iframe>
+</div>
 	<header>
 		<div id="logo"><img src="https://needgol.github.io/gifs-de-raio_needgol.gif" width="100%" height="">Ajudei&nbsp;Pix</div>
 		<nav>  
