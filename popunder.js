@@ -1,4 +1,4 @@
-// pop under window script generated at http://snapbuilder.com/
+// pop under window script generated at http://snapbuilder.com/code_snippet_generator/pop_under_window_code_generator/
 
 function goWin() {
 var mh = 624;
