@@ -32,3 +32,35 @@ body{
         border-color: rgba(255, 255, 255, 0.2);
     }
 }
+
+function typeWrite(elemento){
+    let texto = elemento.innerHTML.replace('<br>', '\n');
+    let textoArray = texto.split('');
+    elemento.innerHTML = ' ';
+    textoArray.forEach(function(letra, i){   
+      
+    setTimeout(function(){
+        elemento.innerText += letra;
+    }, 75 * i)
+
+  });
+}
+const titulo = document.querySelector('.titulo-principal');
+typeWrite(titulo);
+.titulo-principal{
+}
+.titulo-principal:after{
+ content: '|';
+ margin-left: 5px;
+ opacity: 1;
+ animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
