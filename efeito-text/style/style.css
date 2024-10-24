@@ -10,7 +10,7 @@ body{
 
 .message{
     width: 100%;
-    animation: digitando 5s steps(25), blink .4s infinite alternate;
+    animation: digitando 3s steps(25), blink .4s infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
@@ -23,7 +23,8 @@ body{
 
 @keyframes digitando{
     from{
-        width: 0;
+        width: 250px;
+        height: 250px;
     }
 }
 
