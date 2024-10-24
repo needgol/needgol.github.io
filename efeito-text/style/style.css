@@ -9,7 +9,7 @@ body{
 }
 
 .message{
-    width: 235px;
+    width: 100%;
     animation: digitando 3s steps(25), blink .4s infinite alternate;
     white-space: nowrap;
     overflow: hidden;
