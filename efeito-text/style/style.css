@@ -1,23 +1,23 @@
 body{
     font-family: sans-serif;
-    font-size: 8px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     color: white;
     background-color: #000000;
 }
 
 .message{
     width: 100%;
-    animation: digitando 3s steps(25), blink .4s infinite alternate;
+    animation: digitando 5s steps(25), blink .4s infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
 
     position:absolute;
-    top:50%;
-    left:50%;
+    top:5%;
+    left:5%;
     transform:translate(-50%,-50%)
 }
 
