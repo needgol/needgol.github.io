@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     font-size: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: left;
     color: white;
     background-color: #000000;
@@ -16,8 +16,8 @@ body{
     border-right: 2px solid;
 
     position:absolute;
-    top:5%;
-    left:5%;
+    top:20%;
+    left:50%;
     transform:translate(-50%,-50%)
 }
 
