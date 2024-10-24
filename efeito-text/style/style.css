@@ -23,12 +23,8 @@ body{
 
 @keyframes digitando{
     from{
- 0% {
-   width: 100px;
- }
- 100% {
-   width: 200px;
- }
+        width: 0;
+    }
 }
 
 @keyframes blink{
