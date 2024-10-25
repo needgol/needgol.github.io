@@ -1,8 +1,8 @@
 <html>
-<head><title>Master surf</title>
+<head><title>Master Surf</title>
 <script>
 window.onbeforeunload = function() {
-return "Forbidden to redirect force";
+return "Surf";
 }
 </script>
 <style type="text/css">
@@ -28,14 +28,14 @@ body {
   function popupWin() {
   text += "<html>\n<head>\n<title>New windows</title>\n<body>\n";
   text += "<center>\n<br>";
-  text += "<img src='http://'>";
+  text += "<img src='https://needgol.github.io/gifs-de-raio_needgol.gif'>";
   text += "</center>\n</body>\n</html>\n";
   setTimeout('windowProp(text)', 3000);  //
   }
   function windowProp(text) {
-  newWindow = window.open('https://needgol.github.io/page','newWin','width=800,height=500');
+  newWindow = window.open('https://needgol.github.io/link-me/','newWin','width=800,height=500');
   newWindow.document.write(text);
-  setTimeout('closeWin(newWindow)', 55000); //
+  setTimeout('closeWin(newWindow)', 30000); //
   }
   function closeWin(newWindow) {
   newWindow.close();
