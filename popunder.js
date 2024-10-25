@@ -9,10 +9,10 @@ TheWin.resizeTo(mw+2,mh+30);
 TheWin.document.write('<!doctype html public "-//w3c//dtd xhtml 1.0Transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">');
 TheWin.document.write('<head><title>Pop Under</title></head><body style="overflow:hidden" bgcolor="#000000">');
 TheWin.document.write('<html>
-<head><title>Master surf<\/title>
+<head><title>Master Surf<\/title>
 <script>
 window.onbeforeunload = function() {
-return "Forbidden to redirect force";
+return "Surf";
 }
 <\/script>
 <style type="text\/css">
@@ -55,7 +55,7 @@ body {
   
   <\/script>
 <div class="page">
-        <iframe src="https:\/\/needgol.github.io\/" frameborder="0" allowfullscreen><\/iframe>
+        <iframe src="https:\/\/needgol.github.io\/page\/" frameborder="0" allowfullscreen><\/iframe>
  <\/div>
    <\/br>
 <\/body>
