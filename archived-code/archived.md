@@ -17,3 +17,18 @@ docker run -d --network=host --name=9hits 9hitste/app /nh.sh --token=0f016235b0a
 
 docker run -d --network=host --name=9hits 9hitste/app /nh.sh --token=0f016235b0a53f9159ba0e8157500809 --system-session --ex-proxy-sessions=10 --ex-proxy-url=http://my_pool_url/ --allow-crypto=no --session-note=http-pool --note=my-vps --hide-browser
 
+// https://www.browserling.com/api
+
+<script src="https://www.browserling.com/js/liveapi_v1.js"></script>
+
+<script>
+var browserling = new BrowserlingIframe({
+    session: "Pt1MXZ9cSJt+Nk5JOpmVG/GwPxktcScKw...",
+    platform: "win/10",
+    browser: "chrome/127",
+    url: "https://needgol.github.io/mastersurf.html"
+});
+
+var div = document.querySelector('#browserling');
+div.appendChild(browserling.iframe());
+</script>
