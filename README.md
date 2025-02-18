@@ -1,2 +1,2 @@
 <H1>NEEDGOL.GITHUB.IO</H1>
-<P>SITE PARA GERAR VIEWS E TESTAR PROGRAMAS QUE PAGAM POR TRÁFEGO DE REDE, AINDA ESTÁ SENDO TRABALHADO E PRECISA CONTINUAR...</P>
+<P>Site de Giovany. Webmaster participe do sorteio contate com whatsapp; Comunidade 500s - Prêmios e amizade.</P>
