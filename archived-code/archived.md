@@ -23,6 +23,8 @@ docker run -d --network=host --name=9hits 9hitste/app /nh.sh --token=0f016235b0a
 
 curl -sSLk https://9hitste.github.io/install/5.0.0/linux.sh | sudo bash -s -- --token=0f016235b0a53f9159ba0e8157500809 --system-session --allow-crypto=no --create-swap=10G
 
+yum -y update || apt update && yum -y install git whiptail || apt install -y git whiptail && cd /root && git clone https://github.com/MauroS5/9Hits-AutoInstall.git && chmod -R 777 9Hits-AutoInstall && 9Hits-AutoInstall/install.sh "2" "0f016235b0a53f9159ba0e8157500809" "15" "10" "1" "0" "vps1"
+
 // https://www.browserling.com/api
 
 <script src="https://www.browserling.com/js/liveapi_v1.js"></script>
