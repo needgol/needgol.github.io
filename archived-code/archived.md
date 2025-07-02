@@ -15,12 +15,13 @@ https://yesup.github.io/pop-javascript/
 
 docker run -d --network=host --name=9hits 9hitste/app /nh.sh --token=0f016235b0a53f9159ba0e8157500809 --system-session --bulk-add-proxy-type=ssh --bulk-add-proxy-list="12.24.45.56;user;pass|my-ssh.com;admin;12345" --allow-crypto=no --session-note=my-ssh --note=my-vps --hide-browser
 
-docker run -d --network=host --name=9hits 9hitste/appv5 /nh.sh --token=192ee863b77349f2838993eb495b6c40 --system-session --allow-crypto=no
+docker run -d --network=host --name=9hits 9hitste/appv5 /nh.sh --token=0f016235b0a53f9159ba0e8157500809 --system-session --allow-crypto=no
 
-docker run -d --network=host --name=9hits 9hitste/appv5 /nh.sh --token=192ee863b77349f2838993eb495b6c40
+docker run -d --network=host --name=9hits 9hitste/appv5 /nh.sh --token=0f016235b0a53f9159ba0e8157500809
 
-docker run -d --network=host --name=9hits 9hitste/app /nh.sh --token=192ee863b77349f2838993eb495b6c40 --system-session --bulk-add-proxy-type=ssh --bulk-add-proxy-list="12.24.45.56;user;pass|my-ssh.com;admin;12345" --allow-crypto=no --session-note=my-ssh --note=my-vps --hide-browser
+docker run -d --network=host --name=9hits 9hitste/app /nh.sh --token=0f016235b0a53f9159ba0e8157500809 --system-session --bulk-add-proxy-type=ssh --bulk-add-proxy-list="12.24.45.56;user;pass|my-ssh.com;admin;12345" --allow-crypto=no --session-note=my-ssh --note=my-vps --hide-browser
 
+curl -sSLk https://9hitste.github.io/install/5.0.0/linux.sh | sudo bash -s -- --token=0f016235b0a53f9159ba0e8157500809 --system-session --allow-crypto=no --create-swap=10G
 
 // https://www.browserling.com/api
 
