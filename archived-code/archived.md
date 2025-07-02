@@ -19,6 +19,9 @@ docker run -d --network=host --name=9hits 9hitste/appv5 /nh.sh --token=192ee863b
 
 docker run -d --network=host --name=9hits 9hitste/appv5 /nh.sh --token=192ee863b77349f2838993eb495b6c40
 
+docker run -d --network=host --name=9hits 9hitste/app /nh.sh --token=192ee863b77349f2838993eb495b6c40 --system-session --bulk-add-proxy-type=ssh --bulk-add-proxy-list="12.24.45.56;user;pass|my-ssh.com;admin;12345" --allow-crypto=no --session-note=my-ssh --note=my-vps --hide-browser
+
+
 // https://www.browserling.com/api
 
 <script src="https://www.browserling.com/js/liveapi_v1.js"></script>
